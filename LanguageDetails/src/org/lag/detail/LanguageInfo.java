@@ -15,6 +15,11 @@ public class LanguageInfo {
 
 		
 	}
+	public void maratiLanguge() {
+		System.out.println("400");
+
+		
+	}
 
 
 public static void main(String[]args) {
@@ -23,5 +28,6 @@ public static void main(String[]args) {
 	s.tamilLanguage();
 	s.englishLanguage();
 	s.hindiLanguge();
+	s.maratiLanguge();
 }
 }
