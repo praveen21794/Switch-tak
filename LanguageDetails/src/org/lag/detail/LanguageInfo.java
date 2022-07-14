@@ -29,5 +29,6 @@ public static void main(String[]args) {
 	s.englishLanguage();
 	s.hindiLanguge();
 	s.maratiLanguge();
+	
 }
 }
