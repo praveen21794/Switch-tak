@@ -1,34 +1,15 @@
 package org.lag.detail;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class LanguageInfo {
-	public void tamilLanguage()
-	{
-	System.out.println("100");
 	
-	}
-	public void englishLanguage() {
-		System.out.println("200");
-	}
-	
-	public void hindiLanguge() {
-		System.out.println("300");
+public static void main(String[] args) {
 
-		
-	}
-	public void maratiLanguge() {
-		System.out.println("400");
-
-		
-	}
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\AS\\eclipse-workspace\\Automation\\Driver c\\chromedriver.exe");
+WebDriver driver =new ChromeDriver();
 
 
-public static void main(String[]args) {
-	LanguageInfo s = new LanguageInfo();
-	
-	s.tamilLanguage();
-	s.englishLanguage();
-	s.hindiLanguge();
-	s.maratiLanguge();
-	
 }
 }
